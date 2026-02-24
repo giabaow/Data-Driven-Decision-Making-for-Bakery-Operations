@@ -24,14 +24,10 @@ Bakeries often face challenges such as:
 ## 📂 Dataset
 The dataset contains transactional and operational bakery data, including:
 
-- Product name/category
 - Date and time of sale
-- Quantity sold
-- Price per item
-- Total revenue
-- Inventory or production data (if applicable)
-
-*(Dataset can be real, simulated, or publicly sourced.)*
+- Location
+- Product name
+- Sales amount
 
 ---
 
@@ -41,8 +37,7 @@ The dataset contains transactional and operational bakery data, including:
 - NumPy
 - Matplotlib / Seaborn
 - Jupyter Notebook
-- SQL (optional)
-- Excel (optional)
+- Excel
 
 ---
 
@@ -55,17 +50,14 @@ The dataset contains transactional and operational bakery data, including:
    - Handle missing values
    - Standardize formats
    - Remove inconsistencies
+   - Dealing with outliers
 
-3. **Exploratory Data Analysis (EDA)**
-   - Sales trends over time
-   - Product performance
-   - Peak business hours
-   - Revenue distribution
+3. **Feature Engineering**
+   - Time-based feature
+   - Lagged values
+   - Sales grouping
 
 4. **Data Visualization**
-   - Sales trends
-   - Category comparison
-   - Demand patterns
 
 5. **Insights & Recommendations**
    - Operational improvements
@@ -74,24 +66,34 @@ The dataset contains transactional and operational bakery data, including:
 
 ---
 
-## 📈 Key Insights (Example)
-- Weekend sales are significantly higher than weekdays.
-- Pastries generate the highest revenue but also the highest waste.
-- Morning hours show peak demand for coffee and baked goods bundles.
-- Certain low-performing products reduce overall efficiency.
+## 📈 Key Insight
+
+Both line charts show a clear **upward trend** over time. To examine the relationship between sales performance and economic conditions, we analyzed the correlation between **normalized bakery sales data** and the **Consumer Price Index (CPI)**.
+
+The results indicate a **moderate negative correlation**:
+
+- **Bread sales vs. Bread CPI:** −0.3208  
+- **Pastry sales vs. CPI:** −0.3199  
+
+These similar correlation values suggest a consistent inverse relationship between product sales and price-level changes. As CPI increases, sales tend to decrease moderately.
+
+The **coefficients of determination (R²)** are:
+
+- Bread category: **0.1029**
+- Pastry category: **0.1023**
+
+This indicates that approximately **10% of sales variability** can be explained by CPI changes, meaning CPI has a measurable but limited influence on demand.
+
+### 💡 Business Implication
+Incorporating CPI trends into demand forecasting models could support more accurate production planning and inventory management, enabling better data-driven decision-making for bakery operations.
 
 ---
 
-## 💡 Business Recommendations
-- Adjust production schedules based on demand patterns.
-- Introduce product bundles during peak hours.
-- Reduce production of low-demand items.
-- Implement data monitoring dashboards for ongoing decisions.
-
----
 
 ## 📊 Example Visualizations
-*(Add screenshots here)*
+*Monthly sales by products*
+
+*Bread and Pastry prices over time*
 
 ---
 
