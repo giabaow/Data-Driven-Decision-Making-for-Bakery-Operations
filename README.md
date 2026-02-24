@@ -6,6 +6,8 @@ The objective is to analyze sales and operational data to identify patterns, opt
 
 This project simulates the role of a **data analyst working with a small business** to transform raw data into actionable insights.
 
+This project analyzes sales data from three bakery locations over the period **January 2021 to Autumn 2022**. The dataset contains daily transaction records that enable the examination of sales performance across different products and locations.
+
 ---
 
 ## 🎯 Business Problem
