@@ -104,7 +104,7 @@ Incorporating CPI trends into demand forecasting models could support more accur
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/bakery-data-project.git
+git clone https://github.com/giabaow/Data-Driven-Decision-Making-for-Bakery-Operations.git
 
 # Navigate into project
 cd bakery-data-project
