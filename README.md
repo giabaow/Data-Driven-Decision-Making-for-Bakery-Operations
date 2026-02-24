@@ -93,3 +93,20 @@ The dataset contains transactional and operational bakery data, including:
 
 ## 📊 Example Visualizations
 *(Add screenshots here)*
+
+---
+
+## 🚀 How to Run the Project
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/bakery-data-project.git
+
+# Navigate into project
+cd bakery-data-project
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run notebook
+jupyter notebook
