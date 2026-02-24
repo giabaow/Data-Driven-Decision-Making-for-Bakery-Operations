@@ -93,8 +93,11 @@ Incorporating CPI trends into demand forecasting models could support more accur
 ## 📊 Example Visualizations
 *Monthly sales by products*
 
+<img src="visuals/Monthly_sales_by_products.png" width="700">
+
 *Bread and Pastry prices over time*
 
+<img src="visuals/Prices_over_time.png" width="700">
 ---
 
 ## 🚀 How to Run the Project
