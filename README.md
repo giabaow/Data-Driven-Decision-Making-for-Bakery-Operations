@@ -1,4 +1,3 @@
-# Data-Driven-Decision-Making-for-Bakery-Operations
 # 📊 Data-Driven Decision Making for Bakery Operations
 
 ## 📌 Project Overview
